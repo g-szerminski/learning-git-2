@@ -86,3 +86,9 @@ header nav ul li a:hover {
 	border-radius: 10px;
 	opacity: 0.9;
 }
+
+.text p {
+	color: #fff;
+	font-size: 1.2em;
+	padding: 2em;
+}
