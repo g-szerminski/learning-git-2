@@ -19,3 +19,36 @@ img {
 	max-width: 1200px;
 	margin: 0 auto;	
 }
+
+header {
+	display: -webkit-flex;
+	display: flex;
+	position: fixed;
+	width: 100%;
+	background-color: #000;
+	height: 80px;
+	align-items: center;
+	justify-content: flex-start;
+}
+
+header nav ul {
+	display: -webkit-flex;
+	display: flex;
+	list-style-type: none;
+}
+
+header nav ul li a {
+	margin: 0 20px;
+	padding: 5px;
+	font-size: 25px;
+	text-transform: uppercase;
+	color: #fff;
+	text-decoration: none;
+}
+
+header nav ul li a:hover {
+	background-color: #525151;
+	color: #fff;
+	text-decoration: none;
+	border-radius: 5px;
+}
