@@ -52,3 +52,23 @@ header nav ul li a:hover {
 	text-decoration: none;
 	border-radius: 5px;
 }
+
+.jumbotron {
+	display: -webkit-flex;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-size: cover;
+	height: 100vh;
+	background-image: url(https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&w=1350&q=80);
+}
+
+.jumbotron h1 {
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 3em;
+}
+
+.jumbotron h1 p {
+	font-size: 0.6em;
+}
