@@ -92,3 +92,13 @@ header nav ul li a:hover {
 	font-size: 1.2em;
 	padding: 2em;
 }
+
+.footer {
+	display: -webkit-flex;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #000;
+	color: #fff;
+	height: 2em;
+}
