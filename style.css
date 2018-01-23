@@ -1,0 +1,90 @@
+* {
+  -webkit-box-sizing: border-box;
+  /* iOS <= 4 i Android <= 2.3 */
+  -moz-box-sizing: border-box;
+  /* Firefox */
+  box-sizing: border-box;
+  /* Chrome, Opera, Safari 5+ i IE 8+ */ }
+
+body {
+  margin: 0;
+  padding: 0; }
+
+img {
+  max-width: 100%;
+  height: auto; }
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto; }
+
+header {
+  display: -webkit-flex;
+  display: flex;
+  position: fixed;
+  width: 100%;
+  background-color: #000;
+  height: 80px;
+  align-items: center;
+  justify-content: flex-start; }
+  header ul {
+    display: -webkit-flex;
+    display: flex;
+    list-style-type: none; }
+    header ul a {
+      margin: 0 20px;
+      padding: 5px;
+      font-size: 25px;
+      text-transform: uppercase;
+      color: #fff;
+      text-decoration: none; }
+    header ul li a:hover {
+      background-color: #525151;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 5px; }
+
+.jumbotron {
+  display: -webkit-flex;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  height: 100vh;
+  background-image: url(https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&w=1350&q=80); }
+  .jumbotron h1 {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 3em; }
+    .jumbotron h1 p {
+      font-size: 0.6em; }
+
+.hero {
+  display: -webkit-flex;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  background-color: #000;
+  height: auto;
+  width: 30%;
+  border-radius: 10px;
+  opacity: 0.9; }
+
+.text p {
+  color: #fff;
+  font-size: 1.2em;
+  padding: 2em; }
+
+.footer {
+  display: -webkit-flex;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000;
+  color: #fff;
+  height: 2em; }
+
+/*# sourceMappingURL=output.css.map */
