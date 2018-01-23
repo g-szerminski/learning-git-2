@@ -1,3 +1,3 @@
 # learning-git-2
-7.3 Git - repozytorium zdalne
-https://github.com/g-szerminski/learning-git-2
+7.4 Git i github paraca zespołowa
+https://g-szerminski.github.io/learning-git-2/
