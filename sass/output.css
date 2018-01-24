@@ -74,7 +74,11 @@ header {
   opacity: 0.9; }
 
 .text p {
+<<<<<<< HEAD
   color: #fff;
+=======
+  color: pink;
+>>>>>>> task-5
   font-size: 1.2em;
   padding: 2em; }
 
