@@ -1,0 +1,19 @@
+{
+  "name": "learning-git-2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "npm run watch": "watch:browsersync"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/g-szerminski/learning-git-2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/g-szerminski/learning-git-2/issues"
+  },
+  "homepage": "https://github.com/g-szerminski/learning-git-2#readme"
+}
