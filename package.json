@@ -1,11 +1,7 @@
 {
   "name": "learning-git-2",
   "version": "1.0.0",
-<<<<<<< HEAD
   "description": "7.4 Git i github paraca zespołowa\r https://g-szerminski.github.io/learning-git-2/",
-  "main": "index.js",
-=======
-  "description": "",
   "main": "index.js",
   "dependencies": {
     "autoprefixer-cli": "^1.0.0",
@@ -14,7 +10,6 @@
     "save-dev": "^2.0.0"
   },
   "devDependencies": {},
->>>>>>> task-5
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -22,21 +17,10 @@
     "type": "git",
     "url": "git+https://github.com/g-szerminski/learning-git-2.git"
   },
-<<<<<<< HEAD
-  "keywords": [],
-=======
->>>>>>> task-5
   "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/g-szerminski/learning-git-2/issues"
   },
-<<<<<<< HEAD
-  "homepage": "https://github.com/g-szerminski/learning-git-2#readme",
-  "devDependencies": {
-    "browser-sync": "^2.23.5"
-  }
-=======
   "homepage": "https://github.com/g-szerminski/learning-git-2#readme"
->>>>>>> task-5
 }
