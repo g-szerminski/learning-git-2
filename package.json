@@ -1,6 +1,7 @@
 {
   "name": "learning-git-2",
   "version": "1.0.0",
+<<<<<<< HEAD
   "description": "7.4 Git i github paraca zespołowa\r https://g-szerminski.github.io/learning-git-2/",
   "main": "index.js",
   "dependencies": {
@@ -12,6 +13,31 @@
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+=======
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "npm run watch": "watch:browsersync"
+	"test": "npm run test:html",
+	"test:html": "globstar nu-html-checker *.html",
+
+	"init-project": "npm install && npm run init:dirs && npm run 
+	init:files && npm run init:gitignore",
+	"init:dirs": "mkdirp sass css vendor images js",
+	"init:files": "touch README.md index.html sass/style.scss 
+	js/script.js",
+	"init:gitignore": "curl 
+	https://raw.githubusercontent.com/github/gitignore/master/Node.gitignore 
+	-o .gitignore",
+        "clean": "build:clean"
+	"build": "npm run build:sass && npm run build:autoprefixer && 
+	npm run test",
+	"build:sass": "node-sass --output-style compact -o css sass",
+	"build:autoprefixer": "autoprefixer-cli css/style.css",
+
+	"build-dev:sass": "node-sass --output-style expanded 
+	--source-map true -o css sass"
+>>>>>>> task-6
   },
   "repository": {
     "type": "git",
@@ -22,5 +48,13 @@
   "bugs": {
     "url": "https://github.com/g-szerminski/learning-git-2/issues"
   },
+<<<<<<< HEAD
   "homepage": "https://github.com/g-szerminski/learning-git-2#readme"
+=======
+  "homepage": "https://github.com/g-szerminski/learning-git-2#readme",
+  "devDependencies": {
+    "browser-sync": "^2.23.6",
+    "globstar": "^1.0.0"
+  }
+>>>>>>> task-6
 }
